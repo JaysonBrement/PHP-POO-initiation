@@ -1,0 +1,20 @@
+une classe est composée d'attribut et de méthodes.
+Un attribut est ce qu'il semble être ,à savoir ,une information.
+Une méthode permet de manipuler ces informations, elle est semblable à une fonction.
+
+les "setteurs"
+permettent de modifier les attributs
+
+les "getteurs"
+servent à modifier les informations ? privée
+
+dans l'ordre:
+dans un fichier séparer prenant le nom de la classe:
+ -faire la classe
+ -spécifier les attributs
+ -faire les setters
+ -faire les getteurs
+ -faire l'affichage
+
+dans l'index:
+on manipule la classe, ses attributs à l'aide des méthodes crées dans la dite classe

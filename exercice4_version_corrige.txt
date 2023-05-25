@@ -1,0 +1,27 @@
+Considérons la classe Stagiaire ayant les attibuts suivants :
+	- nom : attribut privé de type chaine de caractère
+	- notes : attribut privé de type tableau de réels
+1). Créez la classe Stagaire
+2). Générez les getters et les setters des deux attributs
+3). Définissez un constructeur avec 2 paramètres Stagiaire(string $nom, array $notes)
+4). Écrivez la méthode calculerMoyenne() qui permet de retourner la moyenne des notes d'un stagiaire	
+5). Écrivez la méthode trouverMax() et trouverMin() qui permettent de retourner respectivement les notes max et min d'un stagaire
+
+Considerons maintenant une classe appelee Formation ayant les attributs suivants :
+• $intitulé : un attribut privé  de type chaıne de caractere
+• $nbrJours : un attribut privé de type entier
+• $stagiaires : un tableau d’objets de type statique
+6. Créez la classe Formation, générez les getters et setters de ses attributs, et d´efinissez le constructeur Formation(string $intitule, int $nbrJours, array $stagiaires)
+7. Ecrivez une méthode calculerMoyenneFormation() qui retourne la moyenne d’un objet de
+type statique (la moyenne des moyennes des stagiaires)
+8. Ecrivez une méthode getIndexMax() qui retourne l’indice du stagiaire dans le tableau stagiaires
+ayant la meilleure moyenne de la formation.
+9. Ecrivez une méthode  afficherNomMax() qui affiche le nom du premier stagiaire ayant la
+meilleure moyenne d’une formation.
+10. Ecrivez une méthode  afficherMinMax() qui affiche la note minimale du premier stagiaire ayant
+la meilleure moyenne d’une formation.
+11. Ecrivez une méthode  trouverMoyenneParNom(string $nom) qui affiche la moyenne du premier
+stagiaire dont le nom est pass´e en param`etre.
+12. Dans un fichier index.php, testez toutes les méthode  réalisées dans les questions précédentes
+(créez par example trois objets Stagiaire et affectez les à une meme formation et faites appel
+aux quatre derni`eres m´ethodes que vous avez implémentées).

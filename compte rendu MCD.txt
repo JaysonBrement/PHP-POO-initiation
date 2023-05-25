@@ -1,0 +1,3 @@
+- parti droite correcte(auteur ,mot clés , rayon)
+-entre livre et adhérent, il manque une table
+- il manquerait trois tables dans le reste(entre livre et adhérent compris)
